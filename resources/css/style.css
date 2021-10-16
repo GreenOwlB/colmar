@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    
+}
+
+section {
+    width: 100%;
+    display: flex;
+    padding-left: 24px;
+}
+
+
+
+/*header and navigation */
+
+header {
+    height: 64px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 55px;
+}
+
+.logo span {
+    font-size: 32px;
+}
+
+.logoLeft {
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+}
+
+.logoRight {
+    color: gray;
+}
+
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin-left: 16px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+/* section one */
+
+.sectOne {
+    background-color: #d8d8d8;
+}
+
+/* section two */
+
+.sectTwo {
+    background-color: #f3f5f5;
+}
+
+
+/* section three */
+
+.sectThree {
+    background-color: #eaebec;
+}
+
+/* section four */
+
+.sectFour {
+    background-color: #f3f5f5;
+}
+
+/* footer */
+
+footer {
+    background-color: #f3f5f5;
+    padding-left: 24px;
+}
+
+
+
+
+
